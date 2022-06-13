@@ -5,12 +5,10 @@ import { colorStyle } from '../assets/colors'
 import logo from '../assets/images/jopson-logo.png'
 import { Link } from 'react-router-dom'
 
-import Header from '../components/Header'
 
 const LoginPage = () => {
     return (
         <div className='login'>
-            <Header />
             <Grid container alignItems="center" justifyContent="center">
                 <Grid item lg={6} md={6} sm={10} xs={10}>
                     <Paper justifyContent="center">

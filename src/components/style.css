@@ -2,6 +2,7 @@
     background-color: #112952;
     height: 120vh;
     min-height: 120vh;
+    padding-top: 3em;
 }
 
 .login_form_container {

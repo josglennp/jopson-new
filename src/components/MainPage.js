@@ -8,6 +8,7 @@ import { colorStyle } from '../assets/colors'
 
 import Dashboard from '../components/admin/Dashboard'
 import Project from './admin/Project'
+import Footer from './Footer'
 
 const MainPage = () => {
     const [value, setValue] = useState('1');
@@ -28,6 +29,8 @@ const MainPage = () => {
             style={{
                 height:'4em',
                 width:'7em', 
+                paddingTop:4,
+                paddingRight:10
             }}
             />
             </Tooltip>
@@ -47,6 +50,9 @@ const MainPage = () => {
                 <TabPanel value="2"><Project /></TabPanel>
                 <TabPanel value="3">Item Three</TabPanel>
             </TabContext>
+
+
+            <Footer />
         </div>
 
 

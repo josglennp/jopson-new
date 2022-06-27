@@ -40,7 +40,7 @@ const Dashboard = () => {
          },
      ]
     return (
-        <div>
+        <div style={{height: '100vh',minHeight: '100vh'}}>
             {/* <Grid container justifyContent='space-between' alignItems='center'>
             <Grid item  xs={6}>
             <Typography variant='h4' sx={{color: colorStyle.primaryColor}}>ADMIN DASHBOARD</Typography>
@@ -59,7 +59,7 @@ const Dashboard = () => {
             <hr style={{width: '100%', border:'1px solid grey', marginLeft: 30}}/> */}
 
             {/* Dashboard Data */}
-            <Grid container justifyContent='space-around' sx={{padding:'0 10%',}}>
+            <Grid container justifyContent='space-around' sx={{padding:'0 10%'}}>
                 {
                     menu.map((menu) => (
                         <Grid item lg={3} md={3} sm={12} xs={12}>

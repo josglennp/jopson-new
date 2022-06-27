@@ -25,7 +25,7 @@ const LoginPage = () => {
                                 </Button>
                             </Link>
                             <br/>
-                            <span><a>Forgot Password? Click here</a></span>
+                            <span>Forgot Password? <a style={{cursor:'pointer', color:colorStyle.primaryColor}}> Click Here.</a></span>
                         </div>
                     </Paper>
                 </Grid>

@@ -19,7 +19,7 @@ const MainPage = () => {
     return (
         <div>
             <Header />
-            <Grid container justifyContent='space-between' alignItems='center'>
+            <Grid container justifyContent='space-between' alignItems='center' >
             <Grid item  xs={6}>
             <Typography variant='h4' sx={{color: colorStyle.primaryColor, padding:2}}>ADMIN DASHBOARD</Typography>
             </Grid>
@@ -43,12 +43,14 @@ const MainPage = () => {
                 <TabList onChange={handleChange} aria-label="lab API tabs example" scrollButtons={true}>
                     <Tab label="Dashboard" value="1" />
                     <Tab label="Projects" value="2" />
-                    <Tab label="Manage Accounts" value="3" />
+                    <Tab label="Attendance Report" value="3" />
+                    <Tab label="Manage Accounts" value="4" />
                 </TabList>
                 </Box>
                 <TabPanel value="1"><Dashboard /></TabPanel>
                 <TabPanel value="2"><Project /></TabPanel>
-                <TabPanel value="3">Item Three</TabPanel>
+                <TabPanel value="3">Attendance Report</TabPanel>
+                <TabPanel value="4">Item Three</TabPanel>
             </TabContext>
 
 

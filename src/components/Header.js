@@ -15,7 +15,6 @@ const Header = () => {
                 margin: '.5em',
                 marginLeft:'.9em',
             }}
-
             />
             </Link>
             <Typography variant='h4' style={{color: '#FFFF', paddingRight:'20px'}}>Jop-Son Enterprises</Typography>

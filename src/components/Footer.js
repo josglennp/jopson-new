@@ -1,9 +1,12 @@
+import { Typography } from '@mui/material'
 import React from 'react'
 
 const Footer = () => {
     return (
         <div style={styles.footerContainer} >
-            Copyright Ⓒ 2020-2022 Jop-Son Enterprises - All Rights Reserve.
+            <Typography variant='subtitle2'>
+                Copyright Ⓒ 2020-2022 Jop-Son Enterprises - All Rights Reserve.
+            </Typography>
         </div>
     )
 }

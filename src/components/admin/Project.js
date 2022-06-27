@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
-import { Table,TableBody, TableCell, TableContainer, TableHead, TableRow, TablePagination, Paper, styled, Typography } from '@mui/material'
+import { Table,Button,TextField ,TableBody, TableCell, TableContainer, TableHead, TableRow, TablePagination, Paper, styled, Typography, Grid } from '@mui/material'
 import EditSharpIcon from '@mui/icons-material/EditSharp';
+import SearchTwoToneIcon from '@mui/icons-material/SearchTwoTone';
+import FilterAltSharpIcon from '@mui/icons-material/FilterAltSharp';
 
 const columns = [
     { id: 'name', label: 'Purchase Order No.', minWidth: 40 },
@@ -51,7 +53,7 @@ const columns = [
  
 const Project = () => {
     const [page, setPage] = useState(0);
-  const [rowsPerPage, setRowsPerPage] = useState(10);
+  const [rowsPerPage, setRowsPerPage] = useState(5);
 
   const handleChangePage = (event, newPage)=> {
     setPage(newPage);
@@ -74,6 +76,28 @@ const Project = () => {
 
   return (
     <div style={{height: '100vh',minHeight: '100vh'}}>
+
+
+            <Grid container>
+                {/* For Search box/ left side */}
+                <Grid item lg={6} md={12} sm={12} xs={12}>
+                <div style={{border:'1px solid #bac2cf', display:'flex', flexDirection:'row', alignItems:'center', width:'100%'}}>
+                    <TextField label="Search P.O./ Name Description" variant='filled' style={{margin:'.5em 0 .5em 0',width:'100%', border:'1px solid #888'}}/>
+                    <div style={{border:'2px solid #888',borderLeft:'none', padding:'.45em .45em .45em .45em',borderRadius:2}}>
+                        <button style={{border:0, backgroundColor:'transparent', cursor:'pointer'}}><SearchTwoToneIcon fontSize='large'/></button>
+                    </div>
+                </div>
+                </Grid>
+                <Grid item lg={2}></Grid>
+                {/* For add button and filter/ right side */}
+                <Grid item lg={4} md={12} sm={12} xs={12} sx={{display:'flex', justifyContent:'center'}}>
+                <div style={{border: '1px solid #bac2cf', width:'100%', display:'flex', justifyContent:'center', alignItems:'center'}}>
+                    <FilterAltSharpIcon fontSize='inherit' sx={{marginRight:'5%', fontSize:'35px'}}/>
+                    <Button variant="contained" sx={{width:'100%', marginRight:''}} size="large">ADD PROJECT</Button>
+                </div>
+                </Grid>
+            </Grid>
+
         <Paper sx={{ width: '100%', overflow: 'hidden' }}>
       <TableContainer sx={{ maxHeight: 440 }}>
         <Table stickyHeader aria-label="sticky table">
@@ -113,7 +137,7 @@ const Project = () => {
         </Table>
       </TableContainer>
       <TablePagination
-        rowsPerPageOptions={[10, 25, 100]}
+        rowsPerPageOptions={[5, 10, 25]}
         component="div"
         count={rows.length}
         rowsPerPage={rowsPerPage}

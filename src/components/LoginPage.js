@@ -19,7 +19,7 @@ const LoginPage = () => {
                             <TextField label="USER NAME" type="text" fullWidth margin='normal' size='small'  />
                             <TextField label="PASSWORD" type="password" fullWidth size='small' />
                             <br/>
-                            <Link to='/dashboard' style={{width:'100%', textDecoration: 'none'}}>
+                            <Link to='/admin/dashboard' style={{width:'100%', textDecoration: 'none'}}>
                                 <Button variant='contained' fullWidth size='large'>
                                     LOGIN
                                 </Button>

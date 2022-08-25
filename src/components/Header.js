@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <div>
         <div style={{width:'100%', backgroundColor:'#112952',border:'1px solid black', textAlign:'right', display:'flex', justifyContent:'space-between', alignItems:'center' }}>
-            <Link to='/'>
+            <Link to='/admin'>
             <img src={logo} 
             style={{
                 height:'4em',

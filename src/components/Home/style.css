@@ -1,0 +1,15 @@
+.bg-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    border: 1px solid green;
+}
+
+.bg {
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+
+}

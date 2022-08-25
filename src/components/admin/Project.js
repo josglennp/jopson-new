@@ -48,12 +48,13 @@ const columns = [
     createData('001230', 'Rehabilitaion of Switch gear room at Substation 1', "Progress Project", "30%", 'ACTIVE',<EditSharpIcon />),
     createData('001231', 'Provision of ASTEU shower Room', "Progress Project", "50%", 'ACTIVE',<EditSharpIcon />),
     createData('001232', 'Additional Lighting in Pier 15', "Progress Project", "40%", 'ACTIVE',<EditSharpIcon />),
+    createData('001562', 'Roll-up Doors', "Progress Project", "40%", 'ACTIVE',<EditSharpIcon />),
   ];
   
  
 const Project = () => {
     const [page, setPage] = useState(0);
-  const [rowsPerPage, setRowsPerPage] = useState(5);
+  const [rowsPerPage, setRowsPerPage] = useState(10);
 
   const handleChangePage = (event, newPage)=> {
     setPage(newPage);
@@ -137,7 +138,7 @@ const Project = () => {
         </Table>
       </TableContainer>
       <TablePagination
-        rowsPerPageOptions={[5, 10, 25]}
+        rowsPerPageOptions={[10, 25, 50]}
         component="div"
         count={rows.length}
         rowsPerPage={rowsPerPage}

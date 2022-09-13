@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b4aef283.css",
+    "main.js": "/static/js/main.d876e0b5.js",
+    "static/media/bg.jpeg": "/static/media/bg.4c4bb76ed025475c9862.jpeg",
+    "static/media/gear.gif": "/static/media/gear.b1c388bc8d9af76f7393.gif",
+    "static/media/jopson-logo.png": "/static/media/jopson-logo.f84020b342b1978d7a4c.png",
+    "static/media/account-icon.png": "/static/media/account-icon.e21b6f46f8d1f2acac53.png",
+    "index.html": "/index.html",
+    "main.b4aef283.css.map": "/static/css/main.b4aef283.css.map",
+    "main.d876e0b5.js.map": "/static/js/main.d876e0b5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b4aef283.css",
+    "static/js/main.d876e0b5.js"
+  ]
+}

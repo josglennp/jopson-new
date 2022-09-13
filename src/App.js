@@ -4,6 +4,7 @@ import Homepage from './components/Home/Homepage';
 import LoginPage from './components/LoginPage'
 import MainPage from './components/MainPage'
 import NotFound from './components/NotFound';
+import ForgotPassword from './components/admin/ForgotPassword';
 
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
         <Route path="/admin" exact element={<LoginPage />} />
         <Route path="/admin/dashboard" element={<MainPage />} />
         <Route path='*' element={<NotFound />} />
+        <Route path="admin/forgotpass" element={<ForgotPassword />} />
       </Routes>
     </Router>
   )

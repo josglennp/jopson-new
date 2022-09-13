@@ -9,15 +9,15 @@ function Homepage(props) {
         <div style={styles.padding}>
             <div className='bg-container'>
                 <div style={styles.gearContainer}>
-                    <img src={gearGif}  style={styles.gear}/>
+                    <img alt="gear" src={gearGif}  style={styles.gear}/>
                 </div>
                 <div style={styles.titleContainer}>
-                    <img src={JopsonLogo}  style={styles.logo}/>
+                    <img alt='logo' src={JopsonLogo}  style={styles.logo}/>
                     <Typography variant='h2' style={styles.homeName}> Jop-Son Enterprises </Typography>
                     <Button size='large' variant='outlined' style={styles.homeButton}>Get Started</Button>
                 </div>
             </div>
-                <img src={BgImage} className="bg" />
+                <img alt='bg' src={BgImage} className="bg" />
         </div>
     );
 }

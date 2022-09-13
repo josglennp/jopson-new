@@ -26,6 +26,7 @@ const MainPage = () => {
             <Grid item>
             <Tooltip >
             <img src={accountLogo} 
+            alt='acc_logo'
             style={{
                 height:'4em',
                 width:'7em', 

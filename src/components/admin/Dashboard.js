@@ -1,7 +1,7 @@
 import React from 'react'
-import { Typography, Grid, Paper, CardActionArea, Tooltip } from '@mui/material'
-import accountLogo from '../../assets/images/account-icon.png'
-import { colorStyle } from '../../assets/colors'
+import { Typography, Grid, Paper, CardActionArea } from '@mui/material'
+// import accountLogo from '../../assets/images/account-icon.png'
+// import { colorStyle } from '../../assets/colors'
 
 const Dashboard = () => {
 

@@ -1,5 +1,5 @@
 import './App.css';
-import { HashRouter as Router, Routes,Route } from 'react-router-dom'
+import { BrowserRouter as Router, Routes,Route } from 'react-router-dom'
 import Homepage from './components/Home/Homepage';
 import LoginPage from './components/LoginPage'
 import MainPage from './components/MainPage'

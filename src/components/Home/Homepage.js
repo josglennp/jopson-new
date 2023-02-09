@@ -1,8 +1,5 @@
-import { Button, Typography } from "@mui/material";
 import React from "react";
-import BgImage from "../../assets/images/bg.jpeg";
 import gearGif from "../../assets/images/gear.gif";
-import JopsonLogo from "../../assets/images/jopson-logo.png";
 import "./style.css";
 import Navbar from "../navbar/Navbar";
 import manLift from "../../assets/images/manLift.jpg";

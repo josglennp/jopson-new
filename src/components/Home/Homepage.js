@@ -33,12 +33,11 @@ function Homepage(props) {
               We Build Your Dreams Come True. Let's Make Something Amazing!
             </h1>
             <p className="gradient__text">
-              Yet bed any for travelling assistance undulgence unpleasing. Not
-              all thoughts all excercise blessing. Indulgence way everything joy
-              alteration boisterous the attatchment. Party we years to allow
-              asked of.
+              Building Your Dreams Will be our Goal. We want you to just dream
+              and we will make it Come True. We Plan. Design. Propose. And
+              Construct. Let us Build Your Dreams! Reach us on CONTACT US or
+              send your email!
             </p>
-
             <div className="gpt3__header-content__input">
               <input type="email" placeholder="YOUR EMAIL ADDRESS" />
               <button type="button">Get Started</button>

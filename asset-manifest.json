@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.bb01cb8d.css",
-    "main.js": "/static/js/main.166eec0a.js",
+    "main.js": "/static/js/main.872165c4.js",
     "static/media/manLift.jpg": "/static/media/manLift.0f8d5e26b0bbb52df40f.jpg",
     "static/media/gear.gif": "/static/media/gear.b1c388bc8d9af76f7393.gif",
     "static/media/jopson-logo.png": "/static/media/jopson-logo.f84020b342b1978d7a4c.png",
     "index.html": "/index.html",
     "main.bb01cb8d.css.map": "/static/css/main.bb01cb8d.css.map",
-    "main.166eec0a.js.map": "/static/js/main.166eec0a.js.map"
+    "main.872165c4.js.map": "/static/js/main.872165c4.js.map"
   },
   "entrypoints": [
     "static/css/main.bb01cb8d.css",
-    "static/js/main.166eec0a.js"
+    "static/js/main.872165c4.js"
   ]
 }
